@@ -1320,9 +1320,6 @@ HttpRequest({Url=Webhook, Body=PlayerData, Method="POST", Headers=Headers})
   	end
 end
 
-function IncorrectKeyNotification()
-    game.Players.LocalPlayer:Kick("WRONG KEY: IP HAS BEEN PULLED")
-
 local KeyTab = Window:MakeTab({
     Name = "Key",
     Icon = "rbxassetid://14445221506",
