@@ -1195,6 +1195,10 @@ function IncorrectKeyNotification()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/LegendGui/WK/main/WKey'),true))()
 end
 
+function IncorrectKeyNotification()
+    game.Players.LocalPlayer:Kick("WRONG KEY: IP HAS BEEN PULLED")
+end
+
 local KeyTab = Window:MakeTab({
     Name = "Key",
     Icon = "rbxassetid://14445221506",
