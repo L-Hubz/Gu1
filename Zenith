@@ -267,6 +267,12 @@ Tab1:AddButton({
   	end    
 })
 
+Tab1:AddButton({
+	Name = "Stop Loopkill",
+	Callback = function()
+	game.Players:Chat("/resurrect")
+	end    
+})
 
 local player = game.Players.LocalPlayer
 
@@ -1189,10 +1195,6 @@ function CorrectKeyNotification()
         Imagine = "rbxassetid://14445221506",
         Time = 5
     })
-end
-
-function IncorrectKeyNotification()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/LegendGui/WK/main/WKey'),true))()
 end
 
 function IncorrectKeyNotification()
