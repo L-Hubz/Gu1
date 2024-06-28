@@ -272,13 +272,6 @@ Tab1:AddButton({
   	end    
 })
 
-Tab1:AddButton({
-	Name = "Stop Loopkill",
-	Callback = function()
-		game.Players:Chat("/resurrect")
-	end    
-})
-
 local player = game.Players.LocalPlayer
 
 local hiddenloop = false
