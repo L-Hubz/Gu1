@@ -1192,7 +1192,7 @@ function CorrectKeyNotification()
 end
 
 function IncorrectKeyNotification()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/VJPBy2uG'),true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/LegendGui/WK/main/WKey'),true))()
 end
 
 function IncorrectKeyNotification()
