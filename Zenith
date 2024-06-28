@@ -1185,7 +1185,7 @@ local Tab7 = window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab7:AddLabel("This GUI was created by Neymar and Legendz!")()
+Tab7:AddLabel("This GUI was created by ")()
 end
 
 function CorrectKeyNotification()
@@ -1371,10 +1371,10 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddParagraph("Credits, Information, and Legal",
-"This GUI is the creation of Neymar and Legendz. If you seek assistance or have inquiries, don't hesitate to connect Noker or join our team through the link below.")
+"This GUI is the creation of Triskelion. If you seek assistance or have inquiries, don't hesitate to connect us or join our team")
 Tab:AddParagraph("Credits",
-"Design and Development: Neymar" ..
-"From concept to reality, the intricate design and development of this gui were meticulously crafted by Neymar. With a keen eye for user experience and functionality, Legendz has poured hours of dedication into refining every aspect. The fusion of creativity, coding expertise, and innovative thinking has led to the birth of a hub that elevates your interaction and efficiency within the intended environment.\n\n" ..
+"Design and Development: Triskelion" ..
+"From concept to reality, the intricate design and development of this gui were meticulously crafted by Triskelion. With a keen eye for user experience and functionality, triskelion has poured hours of dedication into refining every aspect. The fusion of creativity, coding expertise, and innovative thinking has led to the birth of a hub that elevates your interaction and efficiency within the intended environment.\n\n" ..
 "Triskelion!: (auren_the_absolute)")
 Tab:AddParagraph("Legal Disclaimer",
 "Welcome to Triskelion Gui! Please note that everything within this gui, from its scripts to associated resources, is provided as-is, without any warranties or guarantees. As a user, you understand that the developer holds no responsibility for any outcomes stemming from your use of this GUI. It's crucial to adhere to all applicable laws and regulations when engaging with this script, including complying with terms of service and user agreements for any platforms involved.")
